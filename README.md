@@ -54,8 +54,9 @@ A modern and responsive **technology showcase website** inspired by Apple's clea
 ---
 
 ## 📸 Preview
+<img width="1875" height="907" alt="Screenshot 2026-07-17 182151" src="https://github.com/user-attachments/assets/d138cf72-a376-4c09-802b-46e9b242dc63" />
 
-> *Add screenshots of your homepage, products page, and about page here.*
+
 
 ---
 
