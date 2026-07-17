@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product — TechVerse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-wrap">
+
+            <a href="index.html" class="logo">
+                <img src="image/logo/logo.png" alt="logo">
+            </a>
+
+
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+
+            <div class="nav-icons">
+
+                <button class="icon-btn" id="searchToggle">
+                    <img src="image/icon/search.png" alt="Search">
+                </button>
+
+                <div class="search-box" id="searchBox">
+                    <input type="text" id="searchInput" placeholder="Search products...">
+                </div>
+
+                <button class="icon-btn" id="themeToggle">
+                    <img src="image/icon/darkmode.png" alt="Theme">
+                </button>
+
+
+                <button class="menu-btn" id="menuToggle">
+                    <img src="image/icon/menu.png" alt="menu">
+                </button>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!-- ================= Shop Hero: title + search + filters ================= -->
+    <section class="shop-hero">
+        <h1>Explore Premium Technology</h1>
+
+        <div class="search-pill">
+            <img src="https://api.iconify.design/lucide/search.svg?color=%239aa3b8" alt="">
+            <input type="text" id="productSearch" placeholder="Search...">
+        </div>
+
+        <div class="filter-pills" id="filterPills">
+            <button class="filter-pill active" data-filter="all">All</button>
+            <button class="filter-pill" data-filter="laptops">Laptops</button>
+            <button class="filter-pill" data-filter="smartphones">Smartphones</button>
+            <button class="filter-pill" data-filter="audio">Audio</button>
+            <button class="filter-pill" data-filter="gaming">Gaming</button>
+            <button class="filter-pill" data-filter="accessories">Accessories</button>
+        </div>
+    </section>
+
+    <!-- ================= Product Grid ================= -->
+    <section class="shop-grid" id="productGrid">
+
+        <div class="shop-card" data-category="laptops" data-name="macbook pro">
+            <div class="shop-card-media">
+                <img src="image/product/macbookpro1.jpg" alt="MacBook Pro icon">
+            </div>
+            <div class="shop-card-body">
+                <h3>MacBook Pro</h3>
+                <span class="shop-card-cat">Laptops</span>
+                <p class="shop-card-desc">The MacBook Pro delivers exceptional performance, stunning visuals, and
+                    all-day battery life.</p>
+                <a href="#" class="btn-white">Learn More</a>
+            </div>
+        </div>
+
+        <div class="shop-card" data-category="smartphones" data-name="iphone 16 pro">
+            <div class="shop-card-media">
+                <img src="image/product/iphone16pro.jpg" alt="iPhone 16 Pro icon">
+            </div>
+            <div class="shop-card-body">
+                <h3>iPhone 16 Pro</h3>
+                <span class="shop-card-cat">Smartphones</span>
+                <p class="shop-card-desc">Experience cutting-edge performance, a stunning display, and a powerful
+                    pro-grade camera system.</p>
+                <a href="#" class="btn-white">Learn More</a>
+            </div>
+        </div>
+
+        <div class="shop-card" data-category="smartphones" data-name="samsung galaxy s25 ultra">
+            <div class="shop-card-media">
+                <img src="image/product/s25.jpg" alt="Samsung Galaxy S25 Ultra icon">
+            </div>
+            <div class="shop-card-body">
+                <h3>Samsung Galaxy S25 Ultra</h3>
+                <span class="shop-card-cat">Smartphones</span>
+                <p class="shop-card-desc">Built for power with AI features, an exceptional camera, and a brilliant
+                    immersive display.</p>
+                <a href="#" class="btn-white">Learn More</a>
+            </div>
+        </div>
+
+        <div class="shop-card" data-category="audio" data-name="sony wh-1000xm6">
+            <div class="shop-card-media">
+                <img src="image/product/sonyheadset.jpg" alt="Sony WH-1000XM6 icon">
+            </div>
+            <div class="shop-card-body">
+                <h3>Sony WH-1000XM6</h3>
+                <span class="shop-card-cat">Audio</span>
+                <p class="shop-card-desc">Enjoy industry-leading noise cancellation with premium sound and all-day
+                    comfort.</p>
+                <a href="#" class="btn-white">Learn More</a>
+            </div>
+        </div>
+
+        <div class="shop-card" data-category="gaming" data-name="asus rog zephyrus">
+            <div class="shop-card-media">
+                <img src="image/product/roglap1.jpg" alt="ASUS ROG Zephyrus icon">
+            </div>
+            <div class="shop-card-body">
+                <h3>ASUS ROG Zephyrus</h3>
+                <span class="shop-card-cat">Gaming</span>
+                <p class="shop-card-desc">Ultra-slim gaming performance with powerful graphics and a high-refresh-rate
+                    display.</p>
+                <a href="#" class="btn-white">Learn More</a>
+            </div>
+        </div>
+
+        <div class="shop-card" data-category="gaming" data-name="msi stealth">
+            <div class="shop-card-media">
+                <img src="image/product/msiIStealth.jpg" alt="MSI Stealth icon">
+            </div>
+            <div class="shop-card-body">
+                <h3>MSI Stealth</h3>
+                <span class="shop-card-cat">Gaming</span>
+                <p class="shop-card-desc">A sleek, high-performance laptop designed for gaming, creativity, and
+                    productivity.</p>
+                <a href="#" class="btn-white">Learn More</a>
+            </div>
+        </div>
+
+        <p class="no-results" id="noResults">No products match your search.</p>
+    </section>
+
+    <!-- ================= Compare Products ================= -->
+    <section class="compare-shop">
+        <div class="compare-shop-card">
+            <h2>Compare Products</h2>
+
+            <div class="compare-pair">
+                <div class="compare-item">
+                    <div class="compare-item-media">
+                        <img src="image/product/macbookpro1.jpg" alt="MacBook Pro icon">
+                    </div>
+                    <div class="compare-item-info">
+                        <h4>MacBook Pro</h4>
+                        <span class="shop-card-cat">Laptops</span>
+                        <p>The MacBook Pro delivers exceptional performance, stunning visuals, and all-day battery life.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="compare-item">
+                    <div class="compare-item-media">
+                        <img src="image/product/iphone16pro.jpg" alt="iPhone 16 Pro icon">
+                    </div>
+                    <div class="compare-item-info">
+                        <h4>iPhone 16 Pro</h4>
+                        <span class="shop-card-cat">Smartphones</span>
+                        <p>Experience cutting-edge performance, a stunning display, and a powerful pro-grade camera
+                            system.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn-white" id="compareNowBtn" style="width: auto; padding: 0.85rem 2.4rem;">Compare
+                Now</button>
+        </div>
+    </section>
+
+    <!-- ================= Newsletter ================= -->
+    <section class="section" id="newsletter" style="padding-top: 0; padding-bottom: 90px;">
+        <div class="newsletter-card">
+            <h2>Newsletter subscription</h2>
+            <p>Sign up for newsletter news, accounts, and more.</p>
+            <form class="sub-form" id="subForm">
+                <input type="email" id="subEmail" placeholder="Email" required>
+                <button type="submit" class="btn-white" style="width: auto;">Subscribe</button>
+            </form>
+            <div class="sub-note" id="subNote"></div>
+        </div>
+    </section>
+
+    <!-- ================= Footer ================= -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <div class="logo"><img src="image/logo/logo.png" alt="logo"></div>
+                <p>Curated innovation, premium gadgets, honest prices.</p>
+            </div>
+
+            <div>
+                <h5>Company</h5>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h5>Support</h5>
+                <ul class="footer-links">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h5>Follow us</h5>
+                <div class="socials">
+                    <a href="https://www.facebook.com/share/1GoxQ6tZ5x/?mibextid=wwXIfr" aria-label="Facebook"><img
+                            src="https://api.iconify.design/lucide/facebook.svg?color=%23f2f4fa" alt="Facebook"></a>
+                    <a href="https://www.linkedin.com/in/rasith-wijesinghe-12907441a?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+                        aria-label="Twitter"><img src="https://api.iconify.design/lucide/twitter.svg?color=%23f2f4fa"
+                            alt="Twitter"></a>
+                    <a href="https://www.instagram.com/rasith_wijesinghe?igsh=MWx1cGJ4ZzY1ZGNzOA%3D%3D&utm_source=qr"
+                        aria-label="Instagram"><img
+                            src="https://api.iconify.design/lucide/instagram.svg?color=%23f2f4fa" alt="Instagram"></a>
+                    <a href="https://wa.me/94755016534" aria-label="YouTube"><img
+                            src="https://api.iconify.design/lucide/youtube.svg?color=%23f2f4fa" alt="YouTube"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 TechVerse. All rights reserved.</span>
+            <span>Terms · Privacy</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

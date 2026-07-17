@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — TechVerse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-wrap">
+
+            <a href="index.html" class="logo">
+                <img src="image/logo/logo.png" alt="logo">
+            </a>
+
+
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+
+            <div class="nav-icons">
+
+                <button class="icon-btn" id="searchToggle">
+                    <img src="image/icon/search.png" alt="Search">
+                </button>
+
+                <div class="search-box" id="searchBox">
+                    <input type="text" id="searchInput" placeholder="Search products...">
+                </div>
+
+                <button class="icon-btn" id="themeToggle">
+                    <img src="image/icon/darkmode.png" alt="Theme">
+                </button>
+
+
+                <button class="menu-btn" id="menuToggle">
+                    <img src="image/icon/menu.png" alt="menu">
+                </button>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- ================= Contact Hero ================= -->
+    <section class="contact-hero">
+        <div class="contact-hero-text">
+            <h1>Get in Touch</h1>
+            <p>We'd love to hear from you. Reach out to TechVerse for support, partnerships, or just to say hello.</p>
+        </div>
+
+        <div class="contact-hero-media">
+            <div class="deco-square sq1"></div>
+            <div class="deco-square sq2"></div>
+            <div class="card-deco">
+                <div class="line"></div>
+                <div class="line"></div>
+                <img class="send-icon" src="image/product/contactmacbook.png" alt="contactimg">
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= Form + Info ================= -->
+    <section class="contact-grid">
+
+        <form class="contact-form-card" id="contactForm">
+            <div class="form-field">
+                <label for="cName">Name</label>
+                <input type="text" id="cName" placeholder="Name" required>
+            </div>
+            <div class="form-field">
+                <label for="cEmail">Email</label>
+                <input type="email" id="cEmail" placeholder="Email" required>
+            </div>
+            <div class="form-field">
+                <label for="cSubject">Subject</label>
+                <input type="text" id="cSubject" placeholder="Subject" required>
+            </div>
+            <div class="form-field">
+                <label for="cMessage">Message</label>
+                <textarea id="cMessage" placeholder="Message" required></textarea>
+            </div>
+
+            <button type="submit" class="send-btn">
+                Send Message
+                <img src="image/icon/send.png" alt="send">
+            </button>
+            <div class="form-note" id="contactNote"></div>
+        </form>
+
+        <div class="info-list">
+            <div class="info-card">
+                <div class="icon-badge">
+                    <img src="https://api.iconify.design/lucide/mail.svg?color=%23a855f7" alt="Email icon">
+                </div>
+                <div>
+                    <h4>Email</h4>
+                    <p>rasithmaleesha6@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="icon-badge">
+                    <img src="https://api.iconify.design/lucide/phone.svg?color=%23a855f7" alt="Phone icon">
+                </div>
+                <div>
+                    <h4>Phone</h4>
+                    <p>+94 76 996 0229</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="icon-badge">
+                    <img src="https://api.iconify.design/lucide/map-pin.svg?color=%23a855f7" alt="Location icon">
+                </div>
+                <div>
+                    <h4>Location</h4>
+                    <p>Sri Lanka</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="icon-badge">
+                    <img src="https://api.iconify.design/lucide/clock.svg?color=%23a855f7" alt="Business Hours icon">
+                </div>
+                <div>
+                    <h4>Business Hours</h4>
+                    <p>Mon–Fri | 9AM–6PM</p>
+                </div>
+            </div>
+
+            <div class="info-card social-card" style="flex-direction: column; align-items: flex-start;">
+                <h4>Social Media</h4>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/rasith-wijesinghe-12907441a?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+                        aria-label="LinkedIn"><img src="https://api.iconify.design/lucide/linkedin.svg?color=%23f2f4fa"
+                            alt="LinkedIn"></a>
+                    <a href="#" aria-label="Twitter"><img
+                            src="https://api.iconify.design/lucide/twitter.svg?color=%23f2f4fa" alt="Twitter"></a>
+                    <a href="https://api.iconify.design/lucide/instagram.svg?color=%23f2f4fa"
+                        aria-label="Instagram"><img
+                            src="https://api.iconify.design/lucide/instagram.svg?color=%23f2f4fa" alt="Instagram"></a>
+                    <a href="https://github.com/rasithmaleesha" aria-label="GitHub"><img
+                            src="https://api.iconify.design/lucide/github.svg?color=%23f2f4fa" alt="GitHub"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= Map ================= -->
+    <section class="map-section">
+        <div class="map-card">
+            <div class="map-pin"></div>
+        </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="faq-section">
+        <div class="section-head">
+            <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                What is TechVerse?
+                <img src="https://api.iconify.design/lucide/chevron-down.svg?color=%239aa3b8" alt="">
+            </button>
+            <div class="faq-answer">
+                <p>TechVerse is a modern technology showcase platform featuring premium products from leading global
+                    brands.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Can I purchase products on TechVerse?
+                <img src="https://api.iconify.design/lucide/chevron-down.svg?color=%239aa3b8" alt="">
+            </button>
+            <div class="faq-answer">
+                <p>No. TechVerse is a showcase website designed for exploring and comparing technology products.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">
+                Which brands are featured?How can you use my name for the future?
+                <img src="https://api.iconify.design/lucide/chevron-down.svg?color=%239aa3b8" alt="">
+            </button>
+            <div class="faq-answer">
+                <p>Apple, Samsung, Sony, ASUS, MSI, and other leading technology brands.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= Newsletter ================= -->
+    <section class="section" id="newsletter" style="padding-top: 10px; padding-bottom: 90px;">
+        <div class="newsletter-card">
+            <h2>Newsletter subscription</h2>
+            <p>Sign up for newsletter news, accounts, and more.</p>
+            <form class="sub-form" id="subForm">
+                <input type="email" id="subEmail" placeholder="Email" required>
+                <button type="submit" class="btn-white" style="width: auto;">Subscribe</button>
+            </form>
+            <div class="sub-note" id="subNote"></div>
+        </div>
+    </section>
+
+    <!-- ================= Footer ================= -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <div class="logo"><img src="image/logo/logo.png" alt="logo"></div>
+                <p>Curated innovation, premium gadgets, honest prices.</p>
+            </div>
+
+            <div>
+                <h5>Company</h5>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h5>Support</h5>
+                <ul class="footer-links">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h5>Follow us</h5>
+                <div class="socials">
+                    <a href="https://www.facebook.com/share/1GoxQ6tZ5x/?mibextid=wwXIfr" aria-label="Facebook"><img
+                            src="https://api.iconify.design/lucide/facebook.svg?color=%23f2f4fa" alt="Facebook"></a>
+                    <a href="https://www.linkedin.com/in/rasith-wijesinghe-12907441a?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+                        aria-label="Twitter"><img src="https://api.iconify.design/lucide/twitter.svg?color=%23f2f4fa"
+                            alt="Twitter"></a>
+                    <a href="https://www.instagram.com/rasith_wijesinghe?igsh=MWx1cGJ4ZzY1ZGNzOA%3D%3D&utm_source=qr"
+                        aria-label="Instagram"><img
+                            src="https://api.iconify.design/lucide/instagram.svg?color=%23f2f4fa" alt="Instagram"></a>
+                    <a href="https://wa.me/94755016534" aria-label="YouTube"><img
+                            src="https://api.iconify.design/lucide/youtube.svg?color=%23f2f4fa" alt="YouTube"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 TechVerse. All rights reserved.</span>
+            <span>Terms · Privacy</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
