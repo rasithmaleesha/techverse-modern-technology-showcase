@@ -62,7 +62,7 @@ A modern and responsive **technology showcase website** inspired by Apple's clea
 
 ## 🚀 Live Demo
 
-🔗 **Coming Soon**
+🔗 https://rasithmaleesha.github.io/techverse-modern-technology-showcase/
 
 ---
 
